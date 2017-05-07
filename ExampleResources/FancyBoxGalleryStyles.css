@@ -2,17 +2,19 @@
 	box-shadow:rgb(0, 0, 0) 2px 2px 5px;
 	-webkit-box-shadow:rgb(0, 0, 0) 2px 2px 5px;
 	-o-box-shadow:rgb(0, 0, 0) 2px 2px 5px;
+	-ms-box-shadow:rgb(0, 0, 0) 2px 2px 5px;
 	-moz-box-shadow:rgb(0, 0, 0) 2px 2px 5px;
-	margin-left:5px;
-	margin-right:5px;
-	margin-top:5px;
-margin-bottom:60px;
-
-
-	box-reflect:below 5px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(white)) 0 0 0 0 stretch stretch;
-	-webkit-box-reflect:below 5px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(white)) 0 0 0 0 stretch stretch;
-	-o-box-reflect:below 5px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(white)) 0 0 0 0 stretch stretch;
-	-moz-box-reflect:below 5px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(white)) 0 0 0 0 stretch stretch;
+	-webkit-box-reflect:below 5px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(white)) 0 fill stretch;
+	box-reflect:below 5px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(white)) 0 fill stretch;
+	-o-box-reflect:below 5px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(white)) 0 fill stretch;
+	-ms-box-reflect:below 5px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(white)) 0 fill stretch;
+	-moz-box-reflect:below 5px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(white)) 0 fill stretch;
+	border-image-source:initial;
+	border-image-slice:initial;
+	border-image-width:initial;
+	border-image-outset:initial;
+	border-image-repeat:initial;
 	border:2px solid #FFFFFF;
+	margin:5px 5px 60px 5px;
 }
 
